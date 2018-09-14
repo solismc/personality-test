@@ -1,16 +1,13 @@
-
-
-
 import React, { Component } from 'react';
 
-class Quiz extends Component {
+class HomePage extends Component {
     render() {
         return (
             <div>
-                quizzzing
+                Hoooooome
             </div>
         );
     }
 }
 
-export default Quiz;
+export default HomePage;
