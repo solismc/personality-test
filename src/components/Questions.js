@@ -4,7 +4,14 @@ class Questions extends Component {
     render() {
         return (
         <div className="App">
-        questions
+        <section className="img-thumbnail">
+        <img className="image" src="./images/Question-1/Picture1Question1.png" alt="P1Q1" height="200" Width="200"/>
+        <img className="image" src="./images/Question-1/Picture2Question1.png" alt="P1Q1" height="200" Width="200"/>
+        <img className="image" src="./images/Question-1/Picture3Question1.png" alt="P1Q1" height="200" Width="200"/>
+        <img className="image" src="./images/Question-1/Picture4Question1.png" alt="P1Q1" height="200" Width="200"/>
+        </section>
+
+
         </div>
         );
     }

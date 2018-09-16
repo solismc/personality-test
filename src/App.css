@@ -2,28 +2,65 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.header-logo {
+  height: 3em;
+  
 }
 
-.App-header {
+.test-image {
+  width: 50%;
+  im: center;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   background-color: white;
-  height: 150px;
-  padding: 20px;
+  height: 4em;
   color: #336699;
   font-family: 'Open Sans', sans-serif;
 }
 
-.App-title {
-  font-size: 1.5em;
+.image {
+  height: 200;
+  width: 200;
+
 }
+
 
 .App-intro {
   font-size: 2.5em;
 }
 
-.Start-Quiz-Button {
-  background-color: #86BBD8;
-  size: .75em;
+.Nav-Bar {
+  
 }
+
+.ul-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  color:#336699;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+btn btn-primary {
+  background-color: #86BBD8;
+}
+
+.footer {
+
+
+}
+
+@media (min-width: 576px)
