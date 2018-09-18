@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100vw;
+
 }
 
 .header-logo {
@@ -23,19 +26,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.image {
-  height: 200;
-  width: 200;
-
-}
-
-
 .App-intro {
   font-size: 2.5em;
-}
-
-.Nav-Bar {
-  
 }
 
 .ul-list {
@@ -47,20 +39,38 @@
   color:#336699;
 }
 
-.image-container {
+.img-fluid {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
 }
+
+.image {
+  margin: 1em;
+  border: #2f4858 solid 5px;
+}
+/* .img-thumbnail { */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* align-content: center; */
+/* } */
 
 btn btn-primary {
   background-color: #86BBD8;
 }
 
 .footer {
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4em;
+  background-color: #336699;
+  color: #2f4858;
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media (min-width: 576px)

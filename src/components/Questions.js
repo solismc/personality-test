@@ -1,17 +1,41 @@
 import React, { Component } from 'react';
 
 class Questions extends Component {
+
+constructor(props) {
+    super(props);
+    this.state = {
+        currentQuestion:1
+    }
+}
+
+updateCurrentQuestion = (nextQuestion) => {
+    this.setState({
+        currentQuestion: nextQuestion
+    })
+}
+
+addOneToQuestion = () => {
+    if (this.state.currentQuestion < 10)
+    this.updateCurrentQuestion(this.state.currentQuestion + 1)
+    
+}
+
+
     render() {
         return (
         <div className="App">
-        <section className="img-thumbnail">
-        <img className="image" src="./images/Question-1/Picture1Question1.png" alt="P1Q1" height="200" Width="200"/>
-        <img className="image" src="./images/Question-1/Picture2Question1.png" alt="P1Q1" height="200" Width="200"/>
-        <img className="image" src="./images/Question-1/Picture3Question1.png" alt="P1Q1" height="200" Width="200"/>
-        <img className="image" src="./images/Question-1/Picture4Question1.png" alt="P1Q1" height="200" Width="200"/>
+        <section className="img-fluid">
+            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture1Question${this.state.currentQuestion}.png`} alt="P1Q1" height="275" width="275"/>
+            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture2Question${this.state.currentQuestion}.png`} alt="P1Q1" height="275" width="275"/>
+            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture3Question${this.state.currentQuestion}.png`} alt="P1Q1" height="275" width="275"/>
+            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture4Question${this.state.currentQuestion}.png`} alt="P1Q1" height="275" width="275"/>
         </section>
-
-
+        <section>
+            <footer className="footer">
+                Powered by 
+            </footer>
+        </section>
         </div>
         );
     }

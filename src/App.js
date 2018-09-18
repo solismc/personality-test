@@ -20,7 +20,7 @@ class App extends Component {
           <nav className="Nav-Bar">
           <ul className="ul-list">
               <li>
-                <Link to="/" />
+                <Link to="/homepage">Home</Link>
               </li>
               <li>
                 <Link to="/questions">Questions</Link>
@@ -29,20 +29,11 @@ class App extends Component {
                 <Link to="/quiz">Quiz</Link>
               </li>
             </ul>
-          <section className="container-fluid">
-                  <img className="test-image" src="./images/Who-Am-I.png"
-                    alt="logo"/>
-                  
-                  <section className="App-intro">Who Am I?</section>
-                  <section>AN IN-DEPTH PERSONALITY TEST DESIGNED BY PSYCOLOGISTS</section>
-                  <br></br>
-                  <button type="button" class="btn btn-primary btn-lg">Start Quiz!</button>
-                  {/* <button className="Start-Quiz-Button">Start Quiz!</button> */}
-                  </section>
+          
           </nav>
           <div> 
           <Switch>
-            <Route path="/" exact component={HomePage}/>
+            <Route path="/homepage" exact component={HomePage}/>
             <Route path="/questions" exact component={Questions} />
             <Route path="/quiz" exact component={Quiz} />
           </Switch>
