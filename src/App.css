@@ -12,7 +12,7 @@
 
 .test-image {
   width: 50%;
-  im: center;
+  image-orientation: center;
 
 }
 
@@ -40,6 +40,10 @@
 }
 
 .img-fluid {
+  /* display: grid; */
+  /* justify-content: space-around; */
+  /* grid-template-columns: 5% 40% 15% 40% 5%; */
+  /* grid-template-rows: 5% 30% 5% 30%; */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -48,6 +52,7 @@
 }
 
 .image {
+  /* grid-column-start: 2; */
   margin: 1em;
   border: #2f4858 solid 5px;
 }

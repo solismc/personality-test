@@ -26,10 +26,10 @@ addOneToQuestion = () => {
         return (
         <div className="App">
         <section className="img-fluid">
-            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture1Question${this.state.currentQuestion}.png`} alt="P1Q1" height="275" width="275"/>
-            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture2Question${this.state.currentQuestion}.png`} alt="P1Q1" height="275" width="275"/>
-            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture3Question${this.state.currentQuestion}.png`} alt="P1Q1" height="275" width="275"/>
-            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture4Question${this.state.currentQuestion}.png`} alt="P1Q1" height="275" width="275"/>
+            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture1Question${this.state.currentQuestion}.png`} alt="P1Q1" height="300" width="300"/>
+            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture2Question${this.state.currentQuestion}.png`} alt="P1Q1" height="300" width="300"/>
+            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture3Question${this.state.currentQuestion}.png`} alt="P1Q1" height="300" width="300"/>
+            <img onClick={this.addOneToQuestion} className="image" src={`./images/Question-${this.state.currentQuestion}/Picture4Question${this.state.currentQuestion}.png`} alt="P1Q1" height="300" width="300"/>
         </section>
         <section>
             <footer className="footer">
