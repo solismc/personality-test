@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  height: 100vh;
   background-color: rgb(175, 211, 231);
   /* opacity: .5; */
 
@@ -8,7 +7,7 @@
 }
 
 .header-logo {
-  height: 3em;
+  height: 5em;
   
 }
 
@@ -23,10 +22,11 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: white;
-  height: 4em;
+  height: 7em;
   color: #336699;
   background-color: #3c4d58;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
 }
 
 .App-intro {
@@ -43,6 +43,10 @@
 
 }
 
+.ActualQuestion {
+  font-size: 
+}
+
 .img-fluid {
   /* display: grid; */
   /* justify-content: space-around; */
@@ -52,7 +56,6 @@
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100vw;
-  height: 100vh;
 }
 
 .image {
