@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from './logo.svg';
 
 class Questions extends Component {
 
@@ -31,14 +32,13 @@ updateCurrentAnswer = (nextAnswer) => {
 addOneToAnswer = () => {
     if (this.state.currentAnswer < 10)
     this.updateCurrentAnswer(this.state.currentAnswer + 1)
-    
 }
 
     render() {
         return (
         <div className="App">
         <section className="ActualQuestion">
-        <h3>What do you like as symbol?</h3>
+        <h3>What do you like as a symbol</h3>
         </section>    
 
         <section className="img-fluid">
@@ -49,7 +49,7 @@ addOneToAnswer = () => {
         </section>
         <section>
             <footer className="footer">
-                Powered by 
+                Powered by <img src={logo} className="App-logo" alt="logo"/>
             </footer>
         </section>
         </div>

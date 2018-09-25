@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import "./App.css";
-
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import Quiz from "./components/Quiz.js";
 import Questions from "./components/Questions.js";
 import HomePage from "./components/HomePage";
+import "./App.css";
 
 
 class App extends Component {

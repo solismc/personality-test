@@ -2,19 +2,20 @@
   text-align: center;
   background-color: rgb(175, 211, 231);
   /* opacity: .5; */
+}
 
-
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
 }
 
 .header-logo {
   height: 5em;
-  
 }
 
 .test-image {
   width: 50%;
   image-orientation: center;
-
 }
 
 .header {
@@ -41,10 +42,6 @@
   padding: 0;
   color:#336699;
 
-}
-
-.ActualQuestion {
-  font-size: 
 }
 
 .img-fluid {
@@ -83,6 +80,11 @@ btn btn-primary {
   color: #2f4858;
   font-size: 2em;
   font-family: 'Open Sans', sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 @media (min-width: 600px)
