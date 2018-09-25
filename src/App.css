@@ -1,7 +1,9 @@
 .App {
   text-align: center;
   height: 100vh;
-  width: 100vw;
+  background-color: rgb(175, 211, 231);
+  /* opacity: .5; */
+
 
 }
 
@@ -23,6 +25,7 @@
   background-color: white;
   height: 4em;
   color: #336699;
+  background-color: #3c4d58;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -37,6 +40,7 @@
   list-style: none;
   padding: 0;
   color:#336699;
+
 }
 
 .img-fluid {
@@ -78,4 +82,4 @@ btn btn-primary {
   font-family: 'Open Sans', sans-serif;
 }
 
-@media (min-width: 576px)
+@media (min-width: 600px)
