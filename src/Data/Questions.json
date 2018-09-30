@@ -2,32 +2,46 @@
     "ListofQuestions":{
         "data":[{
             "id":"1",
-            "Question":"What do you like as a symbol?"
+            "Question1":"What do you like as a symbol?"
         }, {
             "id":"2",
-            "Question":"What do you for fun?"
+            "Question2":"What do you for fun?"
         }, {
             "id":"3",
-            "Question":"How does your yard look like?"
+            "Question3":"How does your yard look like?"
         }, {
             "id":"4",
-            "Question":"What car would you like to drive?"
+            "Question4":"What car would you like to drive?"
         }, {
             "id":"5",
-            "Question":"How do you stand in front of people?"
+            "Question5":"How do you stand in front of people?"
         }, {
             "id":"6",
-            "Question":"If you were an animal, which of these would you be?"
+            "Question6":"If you were an animal, which of these would you be?"
         }, {
             "id":"7",
-            "Question":"What style of house do you like?"
+            "Question7":"What style of house do you like?"
         }, {
             "id":"8",
-            "Question":"What does my apartment look like?"
+            "Question9":"What does my apartment look like?"
         }, {
             "id":"9",
-            "Question":"What does your office look like?"
+            "Question10":"What does your office look like?"
         }, {
+
+    "PersonalityDescriptions":{
+        "data":[{
+            "id":"1",
+            "Dominant":""
+        }, {
+            "id":"2",
+            "Influencer":"You are a extremely outgoing and spontaneous. Most likely, you enjoy spending time with friends. You are the life of your circle of friends; the one that brings them all together. Ideas are your jam and contact with others is what makes you thrive. You love collaboration and bringing people together to influence change. You bring out the best in people and always encourage them to be the best version of themselves."
+        }, {
+            "id":""
+        }    
         }]
+
+    
+
     }
 }
