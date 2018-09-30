@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   background-color: rgb(175, 211, 231);
-  /* opacity: .5; */
 }
 
 .App-logo {
@@ -40,6 +39,29 @@
   justify-content: space-around;
   list-style: none;
   padding: 0;
+  color: rgb(175, 211, 231);
+}
+
+.Instructions-component {
+  display: flex;
+  text-align: left;
+  align-content: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.Results-box {
+  padding: 2em;
+  text-align: left;
+}
+
+.ol-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
   color:#336699;
 
 }
@@ -60,15 +82,16 @@
   margin: 1em;
   border: #2f4858 solid 5px;
 }
-/* .img-thumbnail { */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* flex-direction: column; */
-  /* align-content: center; */
-/* } */
+
+.Contact-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 btn btn-primary {
-  background-color: #86BBD8;
+  background-color: #336699;
+  margin-bottom: 1em;
 }
 
 .footer {
@@ -87,4 +110,20 @@ btn btn-primary {
   to { transform: rotate(360deg); }
 }
 
-@media (min-width: 600px)
+/* @media (min-width: 600px) */
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
