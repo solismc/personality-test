@@ -13,7 +13,7 @@ class HomePage extends Component {
                   <section className="App-intro">Who Am I?</section>
                   <section>AN IN-DEPTH PERSONALITY TEST DESIGNED BY PSYCOLOGISTS</section>
                   <br></br>
-                  <button type="button" className="btn btn-primary btn-lg">{this.state.currentQuestion}</button>
+                  <button type="button" className="btn btn-primary btn-lg">Start Quiz</button>
                   </section>
                   <br/>
                   <br/>

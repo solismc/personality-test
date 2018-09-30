@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
-import Quiz from "./components/Quiz.js";
+import Quiz from "./components/Results.js";
 import Questions from "./components/Questions.js";
 import HomePage from "./components/HomePage";
 import "./App.css";
+import Results from "./components/Results.js";
 
 
 class App extends Component {
@@ -25,7 +26,7 @@ class App extends Component {
                 <Link to="/questions">Questions</Link>
               </li>
               <li>
-                <Link to="/quiz">Quiz</Link>
+                <Link to="/quiz">Results</Link>
               </li>
             </ul>
           
@@ -34,7 +35,7 @@ class App extends Component {
           <Switch>
             <Route path="/homepage" exact component={HomePage}/>
             <Route path="/questions" exact component={Questions} />
-            <Route path="/quiz" exact component={Quiz} />
+            <Route path="/quiz" exact component={Results} />
           </Switch>
           </div>
         </div>
