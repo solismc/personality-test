@@ -24,13 +24,13 @@ class App extends Component {
           <nav>
             <ul className="ul-list">
               <li>
-                <Link to="/homepage">Home</Link>
+                <Link to="/"></Link>
               </li>
               <li>
-                <Link to="/instructions">Instructions</Link>
+                <Link to="/instructions"></Link>
               </li>
               <li>
-                <Link to="/questions">Questions</Link>
+                <Link to="/questions"></Link>
               </li>
               <li>
                 <Link to="/captureform">Capture Form</Link>
@@ -42,7 +42,7 @@ class App extends Component {
           </nav>
           <div>
             <Switch>
-              <Route path="/homepage" exact component={HomePage} />
+              <Route path="/" exact component={HomePage} />
               <Route path="/instructions" exact component={Instructions} />
               <Route path="/questions" exact component={Questions} />
               <Route path="/captureform" exact component={CaptureForm} />

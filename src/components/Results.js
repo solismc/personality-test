@@ -1,7 +1,17 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
+import PersonalityDescriptions from '../Data/Questions.json'
+import {Link} from "react-router-dom"
+// import Questions from "./Questions.js"
 
 class Results extends Component {
+
+componentDidMount() {
+  // console.log({Data})
+}
+
+
+
   render() {
     return (
       <div>
