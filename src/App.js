@@ -37,7 +37,7 @@ class App extends Component {
                 <Link to="/captureform"></Link>
               </li>
               <li>
-                <Link to="/results">Results</Link>
+                <Link to="/results"></Link>
               </li>
             </ul>
           </nav>
