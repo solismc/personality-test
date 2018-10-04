@@ -1,16 +1,17 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import {Router, Link, Switch, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import Instructions from "./components/Instructions.js";
 import Questions from "./components/Questions.js";
 import CaptureForm from "./components/CaptureForm.js";
 import Results from "./components/Results.js";
+import history from './components/History';
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router history={history}>
         <div className="App">
           <header className="header">
             <img
@@ -33,7 +34,7 @@ class App extends Component {
                 <Link to="/questions"></Link>
               </li>
               <li>
-                <Link to="/captureform">Capture Form</Link>
+                <Link to="/captureform"></Link>
               </li>
               <li>
                 <Link to="/results">Results</Link>

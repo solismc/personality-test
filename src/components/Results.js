@@ -8,6 +8,7 @@ class Results extends Component {
 
 componentDidMount() {
   // console.log({Data})
+  // go to storage to get the score. 
 }
 
 
