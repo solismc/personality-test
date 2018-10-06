@@ -36,19 +36,23 @@
         "data":[{
             "id":"1",
             "Title":"Dominant",
+            "Result":"D",
             "Description":"You are focused and dynamic. Most likely, you have an endless supply energy and focus. You thrive when making decisions and creating results. You look for situations that push you outside your comfort zone. Your mantra is, “failure is not an option”; the word defeat is not in your vocabulary. You communicate in a direct manner and speak your mind. In group situations, you take initiative and take the lead. The group turns to you to make decisions and set direction."
         }, {
             "id":"2",
             "Title":"Influencer",
+            "Result":"I",
             "Description":"You are sociable, talkative and lively. Most likely, you enjoy spending time with friends. You are the life of your circle of friends; the one that brings them all together. Ideas are your jam and contact with others is what makes you thrive. You love collaboration and bringing people together to influence change. You bring out the best in people and always encourage them to be the best version of themselves."
         }, {
             "id":"3",
-            "Title":"Steadiness",
-            "Description":"You are a gentle, accommodating and, softhearted person. Your friends would probably use the words “loyal”, “friendly” and “people-oriented” to describe you. Fast change and personal conflict is not your thing. It makes you uncomfortable. You would rather engage in positive dialogue and listen to all parties involved. Your soft-spoken tone draws people towards you. It’s what makes you great at resolving conflict and bringing groups of people and teams together. Anything social is your jam."
-        }, {
-            "id":"4",
             "Title":"Conscientious",
+            "Result":"C",
             "Description":"You are private, analytical and logical. You are disciplined and pay a lot attention to detail. Professionalism and clear guidelines help you thrive. Your biggest source of pride is delivering quality work. Disorganized settings will most likely drive you crazy. You communicate in a very concrete manner. You carefully choose the right words to get your message across. As a member of a team, you are the one they turn to when something is not working. They also turn to you for a last look at the work before delivering."
+            }, {            
+            "id":"4",
+            "Title":"Steadiness",
+            "Result":"S",
+            "Description":"You are a gentle, accommodating and, softhearted person. Your friends would probably use the words “loyal”, “friendly” and “people-oriented” to describe you. Fast change and personal conflict is not your thing. It makes you uncomfortable. You would rather engage in positive dialogue and listen to all parties involved. Your soft-spoken tone draws people towards you. It’s what makes you great at resolving conflict and bringing groups of people and teams together. Anything social is your jam."
         }]
     }
 }

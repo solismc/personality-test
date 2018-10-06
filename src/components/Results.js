@@ -1,14 +1,23 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import PersonalityDescriptions from '../Data/Questions.json'
+import Questions from './Questions.js'
 import {Link} from "react-router-dom"
-// import Questions from "./Questions.js"
 
 class Results extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
 
-componentDidMount() {
-  // console.log({Data})
-  // go to storage to get the score. 
+  componentDidMount() {
+    console.log({data: PersonalityDescriptions})
+    let fromStorage = localStorage.getItem("totalscore") 
+    let fromStorage = localStorage.getItem("result")
+    this.setState({totalscore: fromStorage })
+    this.setState({result: fromStorage})
+
+    // go to storage to get the score.
 }
 
 
@@ -16,17 +25,10 @@ componentDidMount() {
   render() {
     return (
       <div>
-          <h3>You are Conscientious - blue</h3>
+          <h3>You are {this.state.Title} - {this.state.Result}</h3>
         <section className="Results-box">
           <h4>
-            You are private, analytical and logical. You are disciplined and pay
-            a lot attention to detail. Professionalism and clear guidelines help
-            you thrive. Your biggest source of pride is delivering quality work.
-            Disorganized settings will most likely drive you crazy. You
-            communicate in a very concrete manner. You carefully choose the
-            right words to get your message across. As a member of a team, you
-            are the one they turn to when something is not working. They also
-            turn to you for a last look at the work before delivering.
+            {this.state.Description}
           </h4>
         </section>
         <section>

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import QuestionData from "../Data/Questions.json";
-import { Link } from "react-router-dom";
 import history from "./History";
 
 class Questions extends Component {
@@ -11,7 +10,8 @@ class Questions extends Component {
     this.state = {
       currentQuestion: 1,
       currentAnswer: 1,
-      score: 0
+      score: 0,
+      result: 0
     };
   }
 
@@ -36,17 +36,19 @@ class Questions extends Component {
       } else if (this.state.score >= 130 && this.state.score <= 155) {
         console.log("C");
       } else if (this.state.score >= 160 && this.state.score <= 200) {
-        console.log("DI / ID")
+        console.log("D")
       } else if (this.state.score >= 210 && this.state.score <= 245) {
         console.log("I")
         // for now, this would be a gap that would go a default//
       } else if (this.state.score >= 310 && this.state.score <= 375) {
-        console.log("IS / SI")
+        console.log("S")
       } else if (this.state.score >= 380 && this.state.score <= 410) {
         console.log("S")
       }
       const totalscore = this.state.score
-      localStorage.setItem ("totalscore", totalscore)
+      const result = this.state.result
+      localStorage.setItem ("totalscore", totalscore,)
+      localStorage.setItem ("result", result,)
       // store the results in local storage
       history.push("/captureform");
       
