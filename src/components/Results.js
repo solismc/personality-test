@@ -13,9 +13,9 @@ class Results extends Component {
   componentDidMount() {
     console.log({data: PersonalityDescriptions})
     let fromStorage = localStorage.getItem("totalscore") 
-    let fromStorage = localStorage.getItem("result")
+    // let fromStorage = localStorage.getItem("result")
     this.setState({totalscore: fromStorage })
-    this.setState({result: fromStorage})
+    // this.setState({result: fromStorage})
 
     // go to storage to get the score.
 }

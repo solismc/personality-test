@@ -48,7 +48,7 @@ class Questions extends Component {
       const totalscore = this.state.score
       const result = this.state.result
       localStorage.setItem ("totalscore", totalscore,)
-      localStorage.setItem ("result", result,)
+      // localStorage.setItem ("result", result,)
       // store the results in local storage
       history.push("/captureform");
       
