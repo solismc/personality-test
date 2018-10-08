@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 class Instructions extends Component {
   render() {
@@ -16,10 +16,10 @@ class Instructions extends Component {
             </li>
             <li>There are no right or wrong answers, be yourself.</li>
           </ol>
-        </section>
-        <section>
-        <Link to="/questions">
-            <button type="button" className="btn btn-primary btn-lg">Lets Do This!</button>
+          <Link to="/questions">
+            <button type="button" className="btn btn-primary btn-lg">
+              Lets Do This!
+            </button>
           </Link>
         </section>
         <section>
