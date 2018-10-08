@@ -11,38 +11,38 @@ namespace personality_test.Controllers
     [ApiController]
     public class UsersubscriberContext : ControllerBase
     {
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<SubscribersTable>> Get()
-        {
-            var db = new SubscribersTableContext (); 
-            return db.SubscribersTable;
-        }
+        // // GET api/values
+        // [HttpGet]
+        // public ActionResult<IEnumerable<SubscribersTable>> Get()
+        // {
+        //     var db = new SubscribersTableContext (); 
+        //     return db.SubscribersTable;
+        // }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<SubscribersTable> Get(int id)
-        {
-            return "value";
-        }
+        // // GET api/values/5
+        // [HttpGet("{id}")]
+        // public ActionResult<SubscribersTable> Get(int id)
+        // {
+        //     return "value";
+        // }
 
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-            var Subscriber = new  {
-                FirstName = FirstName,
-                LastName = LastName,
-                EmailAdress = EmailAddress,
-        };
-            var db = new SubscribersTableContext();
+        // // POST api/values
+        // [HttpPost]
+        // public void Post([FromBody] string value)
+        // {
+        //     var Subscriber = new  {
+        //         FirstName = FirstName,
+        //         LastName = LastName,
+        //         EmailAdress = EmailAddress,
+        // };
+        //     var db = new SubscribersTableContext();
 
-            db.Usersubscriber.Add(Subscriber);
+        //     db.Usersubscriber.Add(Subscriber);
 
-            db.SaveChanges();
+        //     db.SaveChanges();
 
-            return Subscriber;
-        }
+        //     return Subscriber;
+        // }
 
         // PUT api/values/5
         [HttpPut("{id}")]

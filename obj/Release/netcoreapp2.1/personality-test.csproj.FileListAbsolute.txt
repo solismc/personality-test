@@ -1,4 +1,0 @@
-/Users/manuelsolis/suncoast/personality-test/obj/Release/netcoreapp2.1/personality-test.csprojAssemblyReference.cache
-/Users/manuelsolis/suncoast/personality-test/obj/Release/netcoreapp2.1/personality-test.csproj.CoreCompileInputs.cache
-/Users/manuelsolis/suncoast/personality-test/obj/Release/netcoreapp2.1/personality-test.AssemblyInfoInputs.cache
-/Users/manuelsolis/suncoast/personality-test/obj/Release/netcoreapp2.1/personality-test.AssemblyInfo.cs

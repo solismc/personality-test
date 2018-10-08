@@ -17,7 +17,7 @@ namespace personality_test
             CreateWebHostBuilder(args).Build().Run();
         }
 
-        public static personality_test CreateWebHostBuilder(string[] args) =>
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
     }

@@ -6,10 +6,12 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using personality_test.Models;
 
 namespace personality_test
 {
@@ -27,11 +29,11 @@ namespace personality_test
 
         {
             var conn = Environment.GetEnvironmentVariable("CONNECTION_STRING") ?? "server=localhost;Database=usersubscribers";
-                .AddEntityFrameworkNpgsql()
-                .AddDbContext<Subscribers>(opt =>
-                opt.UseNpgsql (conn));
-                services.AddCors();
-                services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddEntityFrameworkNpgsql()
+                 .AddDbContext<usersubscribersContext>(opt =>
+                     opt.UseNpgsql(conn));
+            // services.AddCors();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         private object AddEntityFrameworkNpgsql()
