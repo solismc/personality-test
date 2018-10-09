@@ -49,6 +49,7 @@
   align-content: flex-start;
   justify-content: space-around;
   flex-wrap: wrap;
+  height: 68vh;
 }
 
 .instructions {
@@ -56,12 +57,19 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 100vh;
+  height: 100vh;
 }
 
-.Results-box {
+.results-box {
+  
   padding: 2em;
+  text-align: center;
+  height: 68%;
+}
+
+.results-paragraph {
   text-align: left;
+  height: 70%;
 }
 
 .ol-list {
@@ -76,13 +84,14 @@
 }
 
 .img-fluid {
-  /* display: grid; */
-  /* justify-content: space-around; */
+  display: grid;
+  justify-content: space-around;
   /* grid-template-columns: 5% 40% 15% 40% 5%; */
   /* grid-template-rows: 5% 30% 5% 30%; */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  height: 63vh;
   /* width: 100vw; */
 }
 
@@ -94,14 +103,13 @@
 }
 
 .image:hover {
-  transform: scale(1.24);
+  transform: scale(1.10);
   border-radius: 5%;
 }
 
-.Contact-information {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.contact-information {
+  margin-top: 5%;
+  height: 62vh;
 }
 
 btn btn-primary {
@@ -118,6 +126,7 @@ btn btn-primary {
   color: #2f4858;
   font-size: 2em;
   font-family: 'Open Sans', sans-serif;
+  height: 16vh;
 }
 
 @keyframes App-logo-spin {
@@ -125,9 +134,9 @@ btn btn-primary {
   to { transform: rotate(360deg); }
 }
 
-/* @media (min-width: 600px) */
+@media (max-width: 1200px)
 
-@media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 768px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -141,4 +150,4 @@ btn btn-primary {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-}
+} 

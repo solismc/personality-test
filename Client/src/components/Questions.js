@@ -46,7 +46,6 @@ class Questions extends Component {
       } else if (this.state.score >= 210 && this.state.score <= 275) {
         console.log("I")
         result = "I";
-        // for now, this would be a gap that would go a default//
       } else if (this.state.score >= 290 && this.state.score <= 375) {
         console.log("S")
         result = "S";
@@ -84,8 +83,8 @@ class Questions extends Component {
               this.state.currentQuestion
             }/Picture1Question${this.state.currentQuestion}.png`}
             alt="P1Q1"
-            height="300"
-            width="300"
+            height="200"
+            width="200"
           />
           <img
             onClick={() => this.addOneToQuestion(30)}
@@ -94,8 +93,8 @@ class Questions extends Component {
               this.state.currentQuestion
             }/Picture2Question${this.state.currentQuestion}.png`}
             alt="P1Q1"
-            height="300"
-            width="300"
+            height="200"
+            width="200"
           />
           <img
             onClick={() => this.addOneToQuestion(15)}
@@ -104,8 +103,8 @@ class Questions extends Component {
               this.state.currentQuestion
             }/Picture3Question${this.state.currentQuestion}.png`}
             alt="P1Q1"
-            height="300"
-            width="300"
+            height="200"
+            width="200"
           />
           <img
             onClick={() => this.addOneToQuestion(45)}
@@ -114,8 +113,8 @@ class Questions extends Component {
               this.state.currentQuestion
             }/Picture4Question${this.state.currentQuestion}.png`}
             alt="P1Q1"
-            height="300"
-            width="300"
+            height="200"
+            width="200"
           />
         </section>
         <section>

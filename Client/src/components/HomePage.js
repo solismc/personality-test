@@ -24,7 +24,6 @@ class HomePage extends Component {
           </Link>
         </section>
         <br />
-        <br />
         <section>
           <footer className="footer">
             Powered by <img src={logo} className="App-logo" alt="logo" />

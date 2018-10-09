@@ -20,6 +20,7 @@ namespace personality_test
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            new usersubscribersContext().Database.Migrate();
         }
 
         public IConfiguration Configuration { get; }

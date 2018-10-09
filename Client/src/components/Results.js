@@ -31,9 +31,11 @@ class Results extends Component {
   render() {
     return (
       <div>
+        <section className="results-box">
         <h3>You are {this.state.Title}</h3>
-        <section className="Results-box">
+        <section className="results-paragraph">
           <h4>{this.state.Description}</h4>
+          </section>
         </section>
         <section>
           <footer className="footer">

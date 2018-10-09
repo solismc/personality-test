@@ -45,7 +45,7 @@ class CaptureForm extends Component {
   render() {
     return (
       <div>
-        <form>
+        <form className="contact-information">
           <h4>Please fill out the form to show your results</h4>
 
           <p>First Name</p>

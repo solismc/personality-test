@@ -1,4 +1,4 @@
 FROM microsoft/dotnet
 WORKDIR /app
 COPY . .
-CMD ASPNETCORE_URLS=http://*:SPORT dotnet my-personality-test.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet personality-test.dll
