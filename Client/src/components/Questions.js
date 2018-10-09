@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import QuestionData from "../Data/Questions.json";
 import history from "./History";
+// import "./App.css";
 
 class Questions extends Component {
   constructor(props) {
     super(props);
-    let fromStorage = localStorage.getItem ("totalscore")
+    // let fromStorage = localStorage.getItem ("totalscore")
+    // let fromStorage = localStorage.getItem ("result")
     this.state = {
       currentQuestion: 1,
       currentAnswer: 1,
@@ -31,24 +33,31 @@ class Questions extends Component {
       this.updateCurrentQuestion(this.state.currentQuestion + 1, questionValue);
     } else {
       console.log(this.state.score);
+      let result;
       if (this.state.score >= 80 && this.state.score <= 125) {
         console.log("D");
+        result = "D";
       } else if (this.state.score >= 130 && this.state.score <= 155) {
         console.log("C");
+        result = "C";
       } else if (this.state.score >= 160 && this.state.score <= 200) {
         console.log("D")
+        result = "D";
       } else if (this.state.score >= 210 && this.state.score <= 245) {
         console.log("I")
+        result = "I";
         // for now, this would be a gap that would go a default//
       } else if (this.state.score >= 310 && this.state.score <= 375) {
         console.log("S")
+        result = "S";
       } else if (this.state.score >= 380 && this.state.score <= 410) {
         console.log("S")
+        result = "S";
       }
       const totalscore = this.state.score
-      const result = this.state.result
+
       localStorage.setItem ("totalscore", totalscore,)
-      // localStorage.setItem ("result", result,)
+      localStorage.setItem ("result", result)
       // store the results in local storage
       history.push("/captureform");
       
