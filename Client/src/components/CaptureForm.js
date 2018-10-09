@@ -38,10 +38,7 @@ class CaptureForm extends Component {
       .then(resp => resp.json())
       .then(_ => {
         console.log("success");
-        history.push('/results')
-        //redirect to the results page
-        // programmatically redirect to next page
-        
+        history.push('/results');
       });
   };
 

@@ -32,13 +32,8 @@ namespace personality_test
             services.AddEntityFrameworkNpgsql()
                  .AddDbContext<usersubscribersContext>(opt =>
                      opt.UseNpgsql(conn));
-            // services.AddCors();
+            services.AddCors();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-        }
-
-        private object AddEntityFrameworkNpgsql()
-        {
-            throw new NotImplementedException();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +49,12 @@ namespace personality_test
             }
 
             app.UseHttpsRedirection();
+             app.UseCors(builder =>
+          builder
+              .AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader()
+              .AllowCredentials());
             app.UseMvc();
         }
     }
