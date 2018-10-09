@@ -43,16 +43,16 @@ class Questions extends Component {
       } else if (this.state.score >= 160 && this.state.score <= 200) {
         console.log("D")
         result = "D";
-      } else if (this.state.score >= 210 && this.state.score <= 245) {
+      } else if (this.state.score >= 210 && this.state.score <= 275) {
         console.log("I")
         result = "I";
         // for now, this would be a gap that would go a default//
-      } else if (this.state.score >= 310 && this.state.score <= 375) {
+      } else if (this.state.score >= 290 && this.state.score <= 375) {
         console.log("S")
         result = "S";
       } else if (this.state.score >= 380 && this.state.score <= 410) {
-        console.log("S")
-        result = "S";
+        console.log("I")
+        result = "I";
       }
       const totalscore = this.state.score
 
