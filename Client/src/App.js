@@ -10,15 +10,18 @@ import "./App.css";
 
 class App extends Component {
   render() {
+    console.log(process.env)
     return (
       <Router history={history}>
         <div className="App">
           <header className="header">
+          <a href="/">
             <img
               className="header-logo"
-              src="./images/TAB-logo-website.png"
+              src="./images/TAB-Logo-website.png"
               alt="logo"
             />
+            </a>
             <span>For Business</span>
             <span>About Us</span>
           </header>

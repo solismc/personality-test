@@ -23,7 +23,7 @@ class CaptureForm extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    fetch("https://localhost:5001/api/usersubscribers", {
+    fetch(`${process.env.REACT_APP_API}/api/usersubscribers`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
