@@ -84,8 +84,6 @@
   display: grid;
   align-items: center;
   justify-content: space-around;
-  /* grid-template-columns: 5% 40% 15% 40% 5%; */
-  /* grid-template-rows: 5% 30% 5% 30%; */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
