@@ -33,7 +33,7 @@ class Results extends Component {
       <div>
         <section className="results-box">
         <h3>You are {this.state.Title}</h3>
-        <section className="results-paragraph">
+        <section>
           <h4>{this.state.Description}</h4>
           </section>
         </section>
