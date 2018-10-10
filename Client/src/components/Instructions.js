@@ -13,7 +13,8 @@ class Instructions extends Component {
             <ol>
               <li> - You will be presented with a series of images.</li>
               <li>
-                - Do not over-think the answer. Select the first one that best
+                - Do not over-think the answer. 
+                Select the first one that best
                 describes you or your environment.
               </li>
               <li> - There are no right or wrong answers, be yourself.</li>

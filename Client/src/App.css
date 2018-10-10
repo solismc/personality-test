@@ -87,7 +87,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* height: 60vh; */
+  height: 60vh;
 }
 
 .image {
@@ -106,7 +106,7 @@
   height: 62vh;
 }
 
-.btn btn-primary {
+.btn-btn-primary {
   background-color: #336699;
   margin-bottom: 1em;
 }
@@ -128,7 +128,7 @@
   to { transform: rotate(360deg); }
 }
 
-@media (max-width: 1200px)
+@media (max-width: 600px)
 
  @media only screen and (min-width: 768px) {
   /* For desktop: */
