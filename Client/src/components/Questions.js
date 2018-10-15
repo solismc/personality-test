@@ -32,25 +32,18 @@ class Questions extends Component {
     if (this.state.currentQuestion < 10) {
       this.updateCurrentQuestion(this.state.currentQuestion + 1, questionValue);
     } else {
-      console.log(this.state.score);
       let result;
       if (this.state.score >= 80 && this.state.score <= 125) {
-        console.log("D");
         result = "D";
       } else if (this.state.score >= 130 && this.state.score <= 155) {
-        console.log("C");
         result = "C";
       } else if (this.state.score >= 160 && this.state.score <= 200) {
-        console.log("D")
         result = "D";
-      } else if (this.state.score >= 210 && this.state.score <= 275) {
-        console.log("I")
+      } else if (this.state.score >= 210 && this.state.score <= 250) {
         result = "I";
-      } else if (this.state.score >= 290 && this.state.score <= 375) {
-        console.log("S")
+      } else if (this.state.score >= 255 && this.state.score <= 375) {
         result = "S";
       } else if (this.state.score >= 380 && this.state.score <= 410) {
-        console.log("I")
         result = "I";
       }
       const totalscore = this.state.score
