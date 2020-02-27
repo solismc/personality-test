@@ -14,13 +14,4 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-
-
-  /*"scripts": {
-    "start": "REACT_APP_API=https://localhost:5001 react-scripts start",
-    "build": "REACT_APP_API=https://my-personality-test.herokuapp.com react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "deploy":"yarn build;surge build --domain my-personality-test.surge.sh"
-  }*/
-}
+  }
