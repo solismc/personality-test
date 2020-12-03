@@ -58,6 +58,14 @@
   height: 68vh;
 }
 
+.page-mid-section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 68vh;
+}
+
 .results-box {
   display: flex;
   flex-direction: column;

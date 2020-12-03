@@ -11,8 +11,7 @@ class HomePage extends Component {
           <img
             className="test-image"
             src="./images/my-personality-test.png"
-            alt="logo"
-          />
+            alt="logo"/>
 
           <section className="App-intro">Who Am I?</section>
           <section>
