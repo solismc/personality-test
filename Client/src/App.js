@@ -25,7 +25,6 @@ class App extends Component {
             <span>For Business</span>
             <span>About Us</span>
           </header>
-          <section className="page-mid-section">
           <nav>
             <ul className="ul-list">
               <li>
@@ -45,7 +44,6 @@ class App extends Component {
               </li>
             </ul>
           </nav>
-          </section>
           <div>
             <Switch>
               <Route path="/" exact component={HomePage} />

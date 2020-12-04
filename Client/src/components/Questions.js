@@ -60,12 +60,12 @@ class Questions extends Component {
     return (
       <div className="App">
         <section className="ActualQuestion">
-          <h3>
+          <h1>
             {
               QuestionData.ListofQuestions.data[this.state.currentQuestion - 1]
                 .Question
             }
-          </h3>
+          </h1>
         </section>
 
         <section className="img-fluid">
