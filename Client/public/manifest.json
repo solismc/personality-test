@@ -6,10 +6,21 @@
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "manifest_version":2,
+      "minimum_chrome_version": "46",
+      "content_security_policy": "script-src 'self' 'sha256-ThhI8UaSFEbbl6cISiZpnJ4Z44uNSq2tPKgyRTD3LyU='",
+      "background": {
+        "page": "background.html"
+      }
     }
   ],
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
+
+
 }
+
